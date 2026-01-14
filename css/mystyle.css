@@ -71,3 +71,18 @@
     box-shadow: 0 6px 18px rgba(0,0,0,0.25);
     outline: none;
 } 
+
+/* Exempt specific anchors from hover effect and restore full image display */
+.Espo-dl a.no-hover img {
+    cursor: default;
+    max-width: none;
+    width: auto;
+    height: auto;
+    transition: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.Espo-dl a.no-hover:hover img {
+    transform: none !important;
+    box-shadow: none !important;
+}
