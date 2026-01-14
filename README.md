@@ -1,2 +1,2 @@
-# Compre_WebDev
-Repository for the WebDev comprehensive exam, using the EventDrivenPortfolio as the base. I tried to deploy githup-pages on the branch but can't because I have no brain cells and time constraints, so here it is.
+# Web Design Comprehensive Assessment
+Deployed on github-pages, just click the link in the about section and now you are viewing my very lovely (in my opinion) portfolio website.
