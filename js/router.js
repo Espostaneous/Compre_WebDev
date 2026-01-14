@@ -40,11 +40,17 @@ $(document).ready(function() {
 
   // Example: handle clicks on links
   $(document).on('click', 'a', function (event) {
-    // Prevent the default link behavior
-    event.preventDefault();
-
     // Get the href attribute of the clicked link
     var path = $(this).attr('href');
+    if (!path) return;
+
+    // Allow external links (absolute URLs, protocol-relative, mailto:, tel:) to behave normally
+    if (path.indexOf('://') !== -1 || path.indexOf('mailto:') === 0 || path.indexOf('tel:') === 0) {
+      return; // don't intercept external links
+    }
+
+    // Prevent the default link behavior for internal navigation and use SPA navigation
+    event.preventDefault();
 
     // Update the URL and content
     navigateTo(path);
