@@ -48,3 +48,26 @@
     background-size: 100% 100%;
     height: 100vh;
 }
+
+/* Portfolio images: indicate clickability with hover/focus effects */
+/* Ensure the anchor takes the image size so hovering near the image still triggers the effect */
+.Espo-dl a {
+    display: inline-block;
+}
+
+.Espo-dl img {
+    display: block;
+    max-width: 240px;
+    height: auto;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Also respond when hovering the anchor container */
+.Espo-dl a:hover img,
+.Espo-dl a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    outline: none;
+} 
