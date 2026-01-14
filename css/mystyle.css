@@ -75,7 +75,7 @@
 /* Exempt specific anchors from hover effect and restore full image display */
 .Espo-dl a.no-hover img {
     cursor: default;
-    max-width: none;
+    max-width: 1000px;
     width: auto;
     height: auto;
     transition: none;
