@@ -1,0 +1,50 @@
+.Espo-h1{
+    color: #2d7c08;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Espo-h2{
+    color: #2d7c08;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.Espo-dl{
+    color: #2d7c08;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.EspoP{
+    color: rgb(124, 60, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.EspoBackground{
+    background-image: url('../Images/Courier_6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.EspoBackground2{
+    background-image: url('../Images/Courier_6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.EspoBackground3{
+    background-image: url('../Images/Courier_6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+}
