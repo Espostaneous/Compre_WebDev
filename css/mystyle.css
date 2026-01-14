@@ -23,7 +23,7 @@
 }
 
 .EspoBackground{
-    background-image: url('../Images/Courier_6.jpg');
+    background-image: url('Images/Courier_6.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .EspoBackground2{
-    background-image: url('../Images/Courier_6.jpg');
+    background-image: url('Images/Courier_6.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -41,7 +41,7 @@
 }
 
 .EspoBackground3{
-    background-image: url('../Images/Courier_6.jpg');
+    background-image: url('Images/Courier_6.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
