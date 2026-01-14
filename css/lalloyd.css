@@ -4,5 +4,12 @@
 }
 
 .EspoIndexBackground {
-    background-color:rgb(43, 10, 10);
+    /* Background image applied to the body to cover entire page */
+    background-image: url('../Images/Courier_6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-color: rgb(43, 10, 10);
 }

@@ -27,8 +27,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: 100% 100%;
-    height: 100vh;
+    background-position: center center;
+    min-height: 100vh;
 }
 
 .EspoBackground2{
@@ -36,8 +36,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: 100% 100%;
-    height: 100vh;
+    background-position: center center;
+    min-height: 100vh;
 }
 
 .EspoBackground3{
@@ -45,8 +45,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: 100% 100%;
-    height: 100vh;
+    background-position: center center;
+    min-height: 100vh;
 }
 
 /* Portfolio images: indicate clickability with hover/focus effects */
